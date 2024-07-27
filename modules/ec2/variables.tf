@@ -25,8 +25,7 @@ variable "monitoring" {
 variable "ami_id" {
     description = "ami of the instance"
     type = string
-    default = "ami-00db8dadb36c9815e"
-  
+    default = "ami-00db8dadb36c9815e" 
 }
 
 variable "create_instance" {
@@ -34,3 +33,5 @@ variable "create_instance" {
   type = bool
   default = true
 }
+
+variable "subnet_id" {}
