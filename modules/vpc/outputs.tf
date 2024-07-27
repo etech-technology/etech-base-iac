@@ -3,5 +3,5 @@ output "security_group_id" {
 }
 
 output "subnet_id" {
-  value = module.vpc.subnet_id
+  value = module.vpc.public_subnets
 }

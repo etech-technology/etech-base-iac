@@ -20,7 +20,7 @@ module "vpc" {
 
 resource "aws_security_group" "syssg" {
   name   = "sg-demo"
-  vpc_id = module.vpc.id
+  vpc_id = module.vpc.vpc_id
 
   ingress = []
   egress  = []
