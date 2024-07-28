@@ -34,4 +34,6 @@ variable "create_instance" {
   default = true
 }
 
-variable "subnet_id" {}
+variable "subnet_id" {
+ default = null
+}
