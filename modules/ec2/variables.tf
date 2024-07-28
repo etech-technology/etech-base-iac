@@ -38,5 +38,5 @@ variable "subnet_id" {
  default = null
 }
 variable "vpc_security_group_ids" {
-default = []
+default = null
 }
