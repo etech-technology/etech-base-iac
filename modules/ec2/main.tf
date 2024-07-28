@@ -9,6 +9,7 @@ module "ec2_instance" {
   monitoring             = var.monitoring
   vpc_security_group_ids = ["var.vpc_security_group_ids"]
   subnet_id              = " "
+  create = false
 
   tags = {
     Terraform   = "true"
