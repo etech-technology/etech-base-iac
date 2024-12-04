@@ -34,4 +34,9 @@ variable "create_instance" {
   default = true
 }
 
-variable "subnet_id" {}
+variable "subnet_id" {
+ default = null
+}
+variable "vpc_security_group_ids" {
+default = null
+}
